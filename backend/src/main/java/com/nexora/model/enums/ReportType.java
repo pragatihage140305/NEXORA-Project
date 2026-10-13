@@ -1,0 +1,14 @@
+package com.nexora.model.enums;
+
+public enum ReportType {
+    INITIAL_ASSESSMENT,
+    PLANNING,
+    BUDGET_COST,
+    TEAM_WORKLOAD,
+    PROTOTYPE_REVIEW,
+    DEVELOPMENT_PROGRESS,
+    ISSUE_BUG,
+    TIMELINE_DEADLINE,
+    TESTING_QA,
+    FINAL_CLOSURE
+}

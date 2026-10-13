@@ -1,0 +1,11 @@
+cat > .gitignore <<'EOF'
+.env
+.env.*
+!.env.example
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/target/
+*.log
+.vscode/
+EOF
